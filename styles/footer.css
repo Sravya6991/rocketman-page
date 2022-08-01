@@ -1,0 +1,55 @@
+footer {
+    background-color: #000;
+    color: #fff;
+    height: 240px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.links p {
+    margin: 40px auto;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-bottom: 2px ;
+}
+.links .unsplash {
+    margin: 0;
+    padding: 0;
+}
+.links ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    align-items: flex-start;
+}
+
+.links ul li {
+    margin: 0;
+    padding: 5px;
+}
+
+.heading {
+    margin-top: -30px;
+}
+
+.links img {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    top: 40px;
+    margin-right: 10px;
+}
+.links .copy-write {
+    position: relative;
+    top: 3px;
+    font-size: 14px;
+}

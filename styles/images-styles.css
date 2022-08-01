@@ -1,0 +1,50 @@
+.image-content {
+    margin: 60px auto 60px 200px;
+    position: relative;
+}
+.content-component {
+    border: 1px solid #000;
+    width: 30%;
+    height: 250px;
+    text-align: left;
+    padding: 10px 40px;
+    background-color: #000;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 210px;
+    left: 580px
+}
+
+.content-component button {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-right { 
+    margin-top: 80px;
+    position: relative;
+    float: right;
+    margin-right: 140px;
+}
+
+.card-right .content-component {
+   position: absolute;
+   top: 340px;
+   left: -360px;
+   width: 60%;
+   height: 240px;
+}
+
+.card-left {
+    margin-top: 80px;
+    margin-bottom: 190px;
+    clear: right;
+    float: left;
+}
+
+.card-left .content-component {
+    width: 65%;
+    height: 250px;
+}

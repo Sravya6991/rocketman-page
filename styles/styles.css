@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 80px;
+}
+
+#logo-content {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 60px;
+}
+
+main {
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.4), 
+                        rgba(0,0,0,0.8)), 
+                        url(../images/rocket.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    position: relative;
+}
+#hero {
+    width: 600px;
+    height: 500px;
+    position: relative;
+    top: 150px;
+    left: 250px;
+    color: white;
+}
+
+#hero h1 {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 36px;
+    word-spacing: 8px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+#hero h1::first-letter {
+    font-size: 60px;
+}
+
+#hero p {
+    margin-top: 20px;
+    width: 800px;
+    font-size: 30px;
+    word-spacing: 5px;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+    padding: 12px 30px;
+    font-size: 20px;
+    color: black;
+    font-weight: 800px;
+}

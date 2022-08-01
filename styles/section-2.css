@@ -1,0 +1,67 @@
+#section-2 {
+    margin-top: 240px;
+    text-align: center;
+    font-size: 24px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 120px;
+    clear: left;
+}
+
+#partner {
+    margin-bottom: 120px;
+}
+#partner p {
+    margin-bottom: 5px;
+}
+.contact {
+    background-color: rgb(125, 62, 188);
+    border: 1px solid transparent;
+    color: #fff;
+    padding: 10px 35px;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+
+#thank-u h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0 420px;
+    margin-bottom: 0;
+}
+
+#thank-u p {
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: 0;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#bottom-section {
+    background-color: rgb(125, 62, 188);
+    color: #fff;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 22px;
+    padding: 5px 50px;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+}
+
+#bottom-content {
+    flex-basis: 62%;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.contact2 {
+    background-color: #fff;
+    color: rgb(125, 62, 188);
+    font-weight: 600px;
+    font-family: 'Lucida Sans', sans-serif;
+    padding: 10px 35px;
+}
